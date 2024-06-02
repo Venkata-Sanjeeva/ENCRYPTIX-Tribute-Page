@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ENCRYPTIX-Tribute-Page/static/css/main.b2331121.css",
+    "main.js": "/ENCRYPTIX-Tribute-Page/static/js/main.bb023a82.js",
+    "static/js/453.02a2b457.chunk.js": "/ENCRYPTIX-Tribute-Page/static/js/453.02a2b457.chunk.js",
+    "static/media/Image3.jpeg": "/ENCRYPTIX-Tribute-Page/static/media/Image3.e9612f8adbfdaea65f7e.jpeg",
+    "static/media/Main-Image.jpg": "/ENCRYPTIX-Tribute-Page/static/media/Main-Image.f4828a2791bf55513d3d.jpg",
+    "static/media/Image2.jpeg": "/ENCRYPTIX-Tribute-Page/static/media/Image2.25a61a908acd96d006a1.jpeg",
+    "static/media/Image1.jpeg": "/ENCRYPTIX-Tribute-Page/static/media/Image1.4494f205af3c37366dec.jpeg",
+    "index.html": "/ENCRYPTIX-Tribute-Page/index.html",
+    "main.b2331121.css.map": "/ENCRYPTIX-Tribute-Page/static/css/main.b2331121.css.map",
+    "main.bb023a82.js.map": "/ENCRYPTIX-Tribute-Page/static/js/main.bb023a82.js.map",
+    "453.02a2b457.chunk.js.map": "/ENCRYPTIX-Tribute-Page/static/js/453.02a2b457.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2331121.css",
+    "static/js/main.bb023a82.js"
+  ]
+}
