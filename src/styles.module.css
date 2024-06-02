@@ -1,0 +1,134 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: rgb(171, 153, 153); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,rgb(252, 110, 110), rgb(106, 218, 168));
+    margin: 0;
+}
+
+b {
+    color: white;
+}
+
+.imgsDiv {
+    height: 750px;
+    width: auto;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    background: url("./Images/Main-Image.jpg") no-repeat center center/cover;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 2px dashed;
+    border-color: white;
+     /* background-image: linear-gradient(to left, red, white); */
+}
+
+
+
+.title {
+    
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 14px 7px 20px rgb(109, 66, 66);
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to left, white, black);
+    padding: 7px;
+}
+
+.title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.subTitle1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subTitle2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+.mainImg {
+    width: 90%;
+    border-radius: 14px;
+    border: 2px dashed;
+    border-color: white;
+    padding: 10px;
+}
+
+.Image2, .Image3 {
+    width: 100%;
+    margin: 10px;
+}
+
+.list {
+    width: auto;
+    text-align: center;
+}
+
+.list li {
+    font-size: 20px;
+    margin: 50px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px){
+    .imgsDiv {
+        height: 700px;
+        width: auto;
+        text-align: center;
+        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        background: url("./Images/Image1.jpeg") no-repeat center center/cover;
+        margin: 50px;
+        padding: 10px;
+        border-radius: 14px;
+        border: 2px dashed;
+        border-color: white;
+         /* background-image: linear-gradient(to left, red, white); */
+    }
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        background-color: rgb(171, 153, 153); /* For browsers that do not support gradients */
+        background-image: linear-gradient(to bottom,rgb(255, 0, 0), rgb(226, 235, 94), rgb(95, 246, 246));
+        margin: 0;
+    }
+    .title {
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-shadow: 14px 7px 20px rgb(109, 66, 66);
+        text-decoration: none;
+        margin-top: 20px;
+        background: none;
+        padding: 7px;
+    }
+    .subTitle1 {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+}
